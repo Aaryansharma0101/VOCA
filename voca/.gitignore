@@ -1,0 +1,49 @@
+# --- Secrets -----------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Node / Next.js ----------------------------------------------------------
+node_modules/
+.next/
+out/
+build/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Data and model caches ---------------------------------------------------
+# ESCO releases, scraped pages, embeddings dumps and raw API payloads stay local.
+data/
+!data/.gitkeep
+.cache/
+*.sqlite
+*.db
+
+# --- Playwright --------------------------------------------------------------
+playwright-report/
+test-results/
+.playwright/
+
+# --- Tooling / OS ------------------------------------------------------------
+tools/
+.run/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

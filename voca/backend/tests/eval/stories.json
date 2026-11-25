@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "description": "Hand-labelled career stories for evaluating services.extract. expected_skills are lower-case labels a careful human would extract; matching is done after normalisation, so labels do not have to be identical.",
+  "stories": [
+    {
+      "id": "teacher-to-ux",
+      "story": "I have taught secondary English for six years. I plan and rewrite the curriculum every term, run parent evenings, and present at staff training days. I also redesigned our department's intranet pages because nobody could find anything.",
+      "expected_skills": [
+        "curriculum design",
+        "lesson planning",
+        "stakeholder communication",
+        "public speaking",
+        "information architecture"
+      ]
+    },
+    {
+      "id": "warehouse-to-data",
+      "story": "I run the night shift in a distribution centre. I track stock in spreadsheets, built a small Excel tool that flags slow-moving items, and cut picking errors by reorganising the aisles. I manage a team of twelve and report weekly numbers to the site manager.",
+      "expected_skills": [
+        "inventory management",
+        "excel",
+        "process improvement",
+        "team leadership",
+        "reporting"
+      ]
+    },
+    {
+      "id": "nurse-to-informatics",
+      "story": "I am a registered nurse on a busy medical ward. I triage patients, keep clinical notes up to date, and spent last year helping roll out a new electronic records system, training colleagues on it.",
+      "expected_skills": [
+        "patient care",
+        "triage",
+        "clinical documentation",
+        "training delivery",
+        "attention to detail"
+      ]
+    },
+    {
+      "id": "junior-dev-to-ml",
+      "story": "I have one year as a backend developer. I write Python services backed by Postgres, review pull requests, and wrote the test suite for our payment integration. I have used pandas for a couple of side projects but never trained a model.",
+      "expected_skills": [
+        "python",
+        "sql",
+        "code review",
+        "unit testing",
+        "rest apis"
+      ]
+    },
+    {
+      "id": "retail-manager-to-product",
+      "story": "I manage a small retail chain. I interview customers about what they want, set the monthly budget, schedule fifteen staff, and negotiate with suppliers. I introduced a loyalty scheme that grew repeat visits by a fifth.",
+      "expected_skills": [
+        "customer research",
+        "budgeting",
+        "scheduling",
+        "negotiation",
+        "stakeholder communication"
+      ]
+    }
+  ]
+}
